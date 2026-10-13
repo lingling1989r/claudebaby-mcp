@@ -1,6 +1,6 @@
 # ClaudeBaby MCP · 社媒研究与电商数据接入
 
-[English](README.en.md) · [接入指南](docs/getting-started.md) · [平台与能力](docs/platforms.md) · [官网](https://claudebaby.cn/)
+[English](README.en.md) · [接入指南](docs/getting-started.md) · [Codex 插件](plugins/claudebaby-research/README.md) · [平台与能力](docs/platforms.md) · [官网](https://claudebaby.cn/)
 
 ClaudeBaby 是面向 AI Agent 的远程 MCP 数据服务。通过一个 HTTPS 连接，按实际开放能力查询社媒帖子、评论及电商商品，用于品牌研究、需求洞察、竞品分析和采购候选比较。
 
@@ -16,6 +16,8 @@ ClaudeBaby 是面向 AI Agent 的远程 MCP 数据服务。通过一个 HTTPS �
 4. 选一个平台做最小实际查询，核对原帖或商品链接、日期、字段和错误后，再扩大样本。
 
 Key 只放在个人客户端的凭证配置中。完整步骤和 [Codex](examples/codex.config.toml)、[Cursor](examples/cursor.mcp.example.json) 配置见 [接入指南](docs/getting-started.md)；不同客户端可能给工具名加前缀，以当次目录为准。
+
+也可以从本仓库的 Codex 插件市场安装 **ClaudeBaby Research**：在 Codex CLI 执行 `codex plugin marketplace add lingling1989r/claudebaby-mcp`，再到 Plugins 目录安装。插件配置不包含任何用户 Key；官方公共插件目录仍需单独通过 OpenAI 的连接扫描与审核，当前固定 API Key 认证方式尚未通过该入口的连接限制。详见 [Codex 插件说明](plugins/claudebaby-research/README.md)。
 
 ## 能用来研究什么
 

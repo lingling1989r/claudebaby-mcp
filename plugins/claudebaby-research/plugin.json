@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "claudebaby-research",
+  "version": "0.1.0",
+  "description": "Research social platforms and ecommerce sources through ClaudeBaby MCP, with evidence-aware workflows for brand, market, community, and product research.",
+  "author": {
+    "name": "ClaudeBaby",
+    "url": "https://claudebaby.cn/"
+  },
+  "homepage": "https://claudebaby.cn/",
+  "repository": "https://github.com/lingling1989r/claudebaby-mcp",
+  "license": "MIT",
+  "keywords": ["social research", "ecommerce", "market research", "MCP", "Reddit", "1688"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ClaudeBaby Research",
+        "shortDescription": "Social and ecommerce research with ClaudeBaby MCP",
+        "longDescription": "Connect Codex to ClaudeBaby's hosted MCP for supported social and ecommerce research. Confirm live tools and source coverage before querying; your API key belongs in your private client credential settings.",
+        "developerName": "ClaudeBaby",
+        "category": "Research",
+        "websiteURL": "https://claudebaby.cn/",
+        "defaultPrompt": [
+          "Use ClaudeBaby Research to check live source support, then find recent public Reddit discussions about ESP32 AI projects.",
+          "Use ClaudeBaby Research to compare supported 1688 product listings and report source links, variants, and price conditions."
+        ]
+      }
+    }
+  }
+}

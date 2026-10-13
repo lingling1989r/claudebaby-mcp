@@ -1,0 +1,20 @@
+{
+  "name": "claudebaby-mcp",
+  "interface": {
+    "displayName": "ClaudeBaby MCP"
+  },
+  "plugins": [
+    {
+      "name": "claudebaby-research",
+      "source": {
+        "source": "local",
+        "path": "./plugins/claudebaby-research"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Research"
+    }
+  ]
+}
