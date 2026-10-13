@@ -1,0 +1,16 @@
+{
+  "recorded_at": "2026-10-13",
+  "record_type": "real_support_response",
+  "input": {
+    "source": "reddit",
+    "capability": "search"
+  },
+  "result": {
+    "source": "reddit",
+    "capability": "search",
+    "status": "supported",
+    "supported": true,
+    "message": "The source is recognized. Use tools/list to inspect capabilities that are currently available."
+  },
+  "evidence_limit": "This records a capability declaration, not a successful post or comment data query."
+}

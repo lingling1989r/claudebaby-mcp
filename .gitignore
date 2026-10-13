@@ -1,0 +1,10 @@
+.env
+.env.*
+*.local.json
+*.local.toml
+*.pem
+*.key
+__pycache__/
+*.pyc
+.seo-cache/
+.DS_Store

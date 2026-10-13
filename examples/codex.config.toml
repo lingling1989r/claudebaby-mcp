@@ -1,0 +1,5 @@
+[mcp_servers.claudebaby]
+url = "https://claudebaby.cn/mcp"
+bearer_token_env_var = "CLAUDEBABY_API_KEY"
+startup_timeout_sec = 30
+tool_timeout_sec = 30
