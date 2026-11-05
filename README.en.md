@@ -8,6 +8,8 @@ This repository contains public connection templates, research workflows and tro
 
 ![Question → capability check → query → sources and reusable methods](assets/research-flow.svg)
 
+[Explore a research sample without signing up](https://claudebaby.cn/research-case?entry=repository&lang=en&ref=M8YYGRN4)
+
 ## Make your first verified query
 
 1. [Register with ClaudeBaby](https://claudebaby.cn/console/register?ref=M8YYGRN4) and obtain your own API key from the console. Existing users can keep their account.

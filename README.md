@@ -8,6 +8,8 @@ ClaudeBaby 是面向 AI Agent 的远程 MCP 数据服务。通过一个 HTTPS �
 
 ![ClaudeBaby MCP 研究流程：问题、能力确认、数据查询、来源和方法](assets/research-flow.svg)
 
+[免登录查看研究案例](https://claudebaby.cn/research-case?entry=repository&lang=zh-CN&ref=M8YYGRN4)
+
 ## 先跑通一次查询
 
 1. [注册 ClaudeBaby](https://claudebaby.cn/console/register?ref=M8YYGRN4)，在控制台获取自己的 API Key；已有用户沿用当前账户。
